@@ -1,0 +1,68 @@
+
+.product-grid{
+  margin: 20px;
+  padding: 20px;
+}
+
+.primary-view-container {
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 16px; 
+  color: #333; 
+  padding: 20px;
+}
+
+.primary-view-label {
+  font-size: 24px;
+  color: #28a745;
+  margin-right: 10px;
+}
+
+.select-input {
+  font-size: 16px;
+  padding: 8px 12px;
+  border: 2px solid #28a745;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.select-input:focus {
+  outline: none;
+  border-color: #218838;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.custom-table th, .custom-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.custom-table th {
+  background-color: #f4f4f4;
+  position: relative;
+}
+
+.sort-indicator {
+  cursor: pointer;
+  margin-left: 5px;
+  color: #666;
+}
+
+.sort-indicator:hover {
+  color: #000;
+}
+
+.custom-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.custom-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
