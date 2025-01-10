@@ -11,8 +11,7 @@ const locationTable = [
     competitorMerchantAnnualized: "195",
     revenuePerAccountAnnualized: "$3,203",
     marketShareByRevenue: "33.33%",
-    commercialDdas: "220",
-    action: ""
+    commercialDdas: "220"
   },
   {
     location: "Florida",
@@ -21,8 +20,7 @@ const locationTable = [
     competitorMerchantAnnualized: "195",
     revenuePerAccountAnnualized: "$3,203",
     marketShareByRevenue: "33.33%",
-    commercialDdas: "220",
-    action: ""
+    commercialDdas: "220"
   },
   {
     location: "Mississippi",
@@ -31,8 +29,7 @@ const locationTable = [
     competitorMerchantAnnualized: "198",
     revenuePerAccountAnnualized: "$3,114",
     marketShareByRevenue: "33.33%",
-    commercialDdas: "792",
-    action: ""
+    commercialDdas: "792"
   }
 ];
 
@@ -45,7 +42,7 @@ const branchTable = [
     revenuePerAccountAnnualized: "$3,060",
     marketShareByRevenue: "33.33%",
     commercialDdas: "1,148",
-    action: ""
+    locationData: "Colorado"
   },
   {
     location: "Branch 2",
@@ -55,7 +52,7 @@ const branchTable = [
     revenuePerAccountAnnualized: "$3,201",
     marketShareByRevenue: "33.33%",
     commercialDdas: "1,028",
-    action: ""
+    locationData: "Florida"
   },
   {
     location: "Branch 3",
@@ -65,7 +62,7 @@ const branchTable = [
     revenuePerAccountAnnualized: "$3,242",
     marketShareByRevenue: "33.33%",
     commercialDdas: "1,008",
-    action: ""
+    locationData: "Mississippi"
   }
 ];
 
