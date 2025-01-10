@@ -49,14 +49,24 @@
   position: relative;
 }
 
-.sort-indicator {
+
+.custom-table th span {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
   cursor: pointer;
-  margin-left: 5px;
-  color: #666;
 }
 
-.sort-indicator:hover {
-  color: #000;
+.location-filterable{
+  color: #00ff00;
+  cursor: pointer;
+}
+
+.location-selected{
+  color: #00ff00;
 }
 
 .custom-table tbody tr:nth-child(even) {

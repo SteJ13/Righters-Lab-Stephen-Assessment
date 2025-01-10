@@ -40,8 +40,8 @@ const ProductGrid = () => {
     fetchDataForTable();
   }, [selectedTable]);
 
-  const calculatedLocationData = useMemo(() => locationData, [locationData]);
-  const calculatedBranchData = useMemo(() => branchData, [branchData]);
+  const memoizedLocationData = useMemo(() => locationData, [locationData]);
+  const memoizedBranchData = useMemo(() => branchData, [branchData]);
 
   return (
     <div className="product-grid">
@@ -58,8 +58,8 @@ const ProductGrid = () => {
       </div>
 
       <DataTable 
-        calculatedLocationData={calculatedLocationData} 
-        calculatedBranchData={calculatedBranchData} 
+        memoizedLocationData={memoizedLocationData} 
+        memoizedBranchData={memoizedBranchData} 
         selectedTable={selectedTable}
       />
 
